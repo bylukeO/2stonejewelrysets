@@ -69,6 +69,11 @@ body {
 }
 
 /* Product Display */
+.product-container {
+    text-align: center;
+    padding: 2rem 0;
+}
+
 .fd {
     text-align: center;
     padding: 2rem 0;
