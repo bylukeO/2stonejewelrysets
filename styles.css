@@ -48,22 +48,6 @@ body {
     padding: 0 1rem;
 }
 
-.sale-48-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 20px;
-}
-
-.sale-48 {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    object-fit: contain;
-}
-
 .contact-info {
     font-size: 1.2rem;
     margin: 1.5rem 0;
@@ -85,11 +69,14 @@ body {
 }
 
 /* Product Display */
-.product-container {
+.fd {
     text-align: center;
     padding: 2rem 0;
 }
 
+.pod {
+    text-align: center;
+    padding: 2rem 0;
 .tagline {
     font-size: 1.3rem;
     color: var(--text-dark);
