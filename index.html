@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Jewelry Set For Classy Women</title>
+    <link rel="stylesheet" href="styles.css">
+           
+</head>
+<body>
+  <header class="main-header">
+    <h1 class="steal-moment">Steal The Moment In Any Gathering You Find Yourself</h>
+    <p class="contact-info">For Enquiries, Call/Whatsapp +234 906 338 3193</p>
+</header>
+
+
+    <div class="jewelry-banner">
+        Stylish Two Stone Jewelry Set For Classy Women
+    </div>
+
+    <div class="container">
+        <div class="product-container">
+            <p class="tagline">This is the best gift you can give yourself, spouse or Boss!</p>
+            <img src="images/PRODUCT.jpeg" alt="Jewelry Set Display" class="product-image">
+            <a href="#order-form" class="cta-button">
+                🛒 ORDER NOW
+            </a>
+        </div>
+        <div class="product-container">
+          <img src="images/PRODUCT1.jpeg" class="product-image">
+      </div>
+      <div class="product-container">
+        <img src="images/PRODUCT2.jpeg" class="product-image">
+        <a href="#jewelry-set" class="cta-button">
+          🛒 I WANT THIS JEWELRY SETS
+      </a>
+    </div>
+
+
+        <div class="pricing-section">
+            <h2>BUY 1 AND GET 1 FREE PERFUME</h2>
+            <p class="regular-price">REGULAR PRICE : N55,000 PER ONE</p>
+            <p class="promo-price">NEW Promo Price: N28,000 PLUS FREE DELIVERY</p>
+            <p>When you buy 1, you get 1 Perfume Free</p>
+            
+        </div>
+
+        <div class="features-list">
+            <p>This is a special and limited edition JEWELRY SET. The gold has been out of stock for more than two months. we just got the opportunity to import 25 pieces only, because many customers have been disturbing us for it.</p>
+            <p>Currently this is the last batch we will import due to the exchange rate which keeps increasing every day.</p>
+            <p class="feature-item">Do you desire to stand out and be admired by people, this exclusive two stone jewelry set affords you that experience.</p>
+            <p class="feature-item">Imagine your self putting on this Elegant Jewelry Set, which gives people a Good long lasting impression about You.</p>
+            <p class="feature-item">This is a perfect gift for your Friends, Spouse and Love ones.</p>
+            <p class="feature-item">Think of how good you would feel when people perceive you as Smart and Intelligent.</p>
+            <p class="feature-item">Embrace your beauty with this Beautiful Master Piece and watch how you Command Attention.</p>
+        </div>
+
+        
+
+        <!-- Form with simple submission method to avoid CORS issues -->
+        <form id="order-form" class="order-form" action="https://script.google.com/macros/s/AKfycbxkX5nM_wTBPUoCUmqPFbF39H5d_DKJKCBdcgOnVT3_3KoRiNfurC1qox8pPfItGuGZYw/exec" method="POST" target="hidden-iframe">
+            <div class="form-warning">
+                PLEASE WE ARE CHARGED FOR EVERY PRODUCT, YOU PLACE AN ORDER FOR, SO PLEASE ONLY FILL THE FORM IF YOU ARE READY TO RECEIVE THE PRODUCT.
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Input Your Name <span class="required">(Required)</span></label>
+                <input type="text" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Input Your Phone Number <span class="required">(Required)</span></label>
+                <input type="tel" name="phone" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Input Your Whatsapp Number <span class="required">(Required)</span></label>
+                <input type="tel" name="whatsapp" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Input Your Email Address</label>
+                <input type="email" name="email" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Select Product Type <span class="required">(Required)</span></label>
+                <div>
+                    <input type="radio" name="productType" value="gold" required> Gold
+                    <input type="radio" name="productType" value="silver"> Silver
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Select Product Quantity <span class="required">(Required)</span></label>
+                <div>
+                    <input type="radio" name="quantity" value="1 Precious Stone + 1 Free Perfume =N29500" required> 1 Precious Stone + 1 Free Perfume =N29500
+                    <input type="radio" name="quantity" value="2 Precious Stone + 2 Free Perfume =N57000"> 2 Precious Stone + 2 Free Perfume =N57000
+                    <input type="radio" name="quantity" value="3 Precious Stone + 3 Free Perfume =N87000"> 3 Precious Stone + 3 Free Perfume =N87000
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Address <span class="required">(Required)</span></label>
+                <input type="text" name="address" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Street Address</label>
+                <input type="text" name="street" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">City</label>
+                <input type="text" name="city" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">State</label>
+                <input type="text" name="state" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">When Do You Want Us To Deliver TO You <span class="required">(Required)</span></label>
+                <div>
+                    <input type="radio" name="deliveryTime" value="Today" required> Today
+                    <input type="radio" name="deliveryTime" value="Tomorrow"> Tomorrow
+                    <input type="radio" name="deliveryTime" value="The Day After Tomorrow"> The Day After Tomorrow
+                </div>
+            </div>
+
+            <button type="submit" class="cta-button" id="submit-button">Submit Order</button>
+        </form>
+        
+        <!-- Hidden iframe for form submission -->
+        <iframe name="hidden-iframe" id="hidden-iframe" style="display:none;"></iframe>
+
+        <section class="faq-section">
+            <h2 class="faq-title">TESTIMONIALS FROM OUR CUSTOMERS</h2>
+            <h3 class="faq-subtitle">Frequently Asked Questions</h3>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Is The Product Original?</h4>
+                    <p>Yes, we only sell 100% authentic and original products. Each item comes with a guarantee of authenticity and quality assurance.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is Delivery Free?</h4>
+                    <p>Yes, delivery is completely FREE!</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How Soon Would I get My Order?</h4>
+                    <p>Delivery is within 24-48 hours after placing an order.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What If i Don't Like the Product in Real Life?</h4>
+                    <p>You would surely love it, if you like the pictures above because it is exactly the same thing.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>Contact Us At:</h3>
+            <p>Call: +234 906 338 3193</p>
+            <p>Email: support@luxuryjewelrysets.xyz</p>
+            <p>Facebook: Luxury Jewelry Sets</p>
+        </div>
+    </footer>
+     <!-- Simple form submission script -->
+     <script>
+        // Simple script to show confirmation after submission
+        const form = document.getElementById('order-form');
+        const iframe = document.getElementById('hidden-iframe');
+        
+        form.addEventListener('submit', function() {
+            setTimeout(function() {
+                alert('Thank you for your order! We will contact you shortly.');
+                form.reset();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
