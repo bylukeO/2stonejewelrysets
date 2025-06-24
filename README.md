@@ -193,7 +193,7 @@ If you have any questions or need support with this project, feel free to:
 - Open an issue on GitHub
 - Email me at bylukeo@gmail.com
 - Connect with me on social media
-- LinkedIn: [Connect with me on linkedin](https://www.linkedin.com/in/luke-oladejo-487b6625b/)
+- LinkedIn: [Luke Oladejo](https://www.linkedin.com/in/luke-oladejo-487b6625b/)
 - Twitter/X: [@byluke_o](https://x.com/byluke_O)
 - Instagram: [@bylukeo](https://www.instagram.com/bylukeo/)
 ---
